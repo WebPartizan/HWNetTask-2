@@ -8,33 +8,28 @@ import java.net.Socket;
 public class Client1 {
 
     public static void main(String[] args) {
+        Socket socket = null;
         try {
-            try ( Socket socket = new Socket("localhost", 10000);
-                  BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-                  BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-                  BufferedWriter out = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
-            ){
-                String consoleMsg = ConsoleCommand.UNKNOWN.toString();
-
-                while (!consoleMsg.contains(ConsoleCommand.EXIT.toString())) {
-                    System.out.println("Enter you message:");
-                    consoleMsg = reader.readLine();
-                    out.write(consoleMsg + System.lineSeparator());
-                    out.flush();
-
-                    String serverMsg = in.readLine();
-                    System.out.println(serverMsg);
-                }
-
-                out.write(ServerListener.ServerCommand.EXIT + System.lineSeparator());
-                out.flush();
-
-            } finally {
-                System.out.println("Close connection...");
-            }
+            socket = new Socket("localhost", 10000);
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        try {
+            String consoleMsg = ConsoleCommand.UNKNOWN.toString();
+
+            while (!consoleMsg.contains(Client2.ConsoleCommand.EXIT.toString())) {
+
+                ConsolReadClient consolReadClient = new ConsolReadClient(socket);
+                ServerListenClient serverListenClient = new ServerListenClient(socket);
+                serverListenClient.start();
+                consolReadClient.start();
+            }
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        //if(socket.isOutputShutdown()) System.exit(0);
     }
 
     public enum ConsoleCommand {
@@ -61,4 +56,5 @@ public class Client1 {
             return txt;
         }
     }
+
 }
