@@ -24,7 +24,6 @@ public class ConsolReadClient extends Thread {
         socket.close();
     }
 
-
     @Override
     public void run() {
         try {
