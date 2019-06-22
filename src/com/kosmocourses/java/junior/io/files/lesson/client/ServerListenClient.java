@@ -3,7 +3,7 @@ package com.kosmocourses.java.junior.io.files.lesson.client;
 import java.io.*;
 import java.net.Socket;
 
-public class ServerListenClient extends  Thread{
+public class ServerListenClient extends Thread {
     private Socket client;
     private BufferedReader in;
     private BufferedWriter out;
@@ -29,9 +29,13 @@ public class ServerListenClient extends  Thread{
     @Override
     public void run() {
         try {
-            while(!client.isOutputShutdown()) {
-                String serverMsg = in.readLine();
-                System.out.println(serverMsg);
+            try {
+                while (!client.isOutputShutdown()) {
+                    String serverMsg = in.readLine();
+                    System.out.println(serverMsg);
+                }
+            } finally {
+                closeConnection(client);
             }
         } catch (IOException e) {
             e.printStackTrace();
