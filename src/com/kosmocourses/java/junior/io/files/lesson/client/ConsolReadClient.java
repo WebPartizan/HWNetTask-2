@@ -31,13 +31,19 @@ public class ConsolReadClient extends Thread {
             try {
                 String consoleMsg = ConsoleCommand.UNKNOWN.toString();
                 while (!consoleMsg.contains(ConsoleCommand.EXIT.toString())) {
+                    sleep(500);
                     System.out.println("Enter you message:");
                     consoleMsg = reader.readLine();
-                    out.write(consoleMsg + System.lineSeparator());
-                    out.flush();
+                    if (!consoleMsg.equals(".UNKNOWN")) {
+                        out.write(consoleMsg + System.lineSeparator());
+                        out.flush();
+                    }
                 }
+            } catch (InterruptedException e) {
+                e.printStackTrace();
             } finally {
                 System.out.println("Close connection...");
+                closeConnection(client);
             }
         } catch (IOException e) {
             e.printStackTrace();

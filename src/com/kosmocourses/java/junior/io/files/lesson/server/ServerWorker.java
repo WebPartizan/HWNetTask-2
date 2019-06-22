@@ -59,7 +59,7 @@ public class ServerWorker  extends Thread {
 
     private void sendMsgToAll(String msg) throws IOException {
         for ( ServerWorker worker: ServerListener.getWorkers()) {
-            worker.out.write(msg);
+            worker.out.write("A message of client " + NetworkUtils.getRemoteClientName(client) + ": " + msg);
             worker.out.newLine();
             worker.out.flush();
         }

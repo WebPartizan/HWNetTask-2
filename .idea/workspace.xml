@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7bc3410e-a6ba-4f03-9df7-3852b3bde3bf" name="Default Changelist" comment="test">
+    <list default="true" id="7bc3410e-a6ba-4f03-9df7-3852b3bde3bf" name="Default Changelist" comment="work">
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kosmocourses/java/junior/io/files/lesson/client/Client1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kosmocourses/java/junior/io/files/lesson/client/Client1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kosmocourses/java/junior/io/files/lesson/client/Client2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kosmocourses/java/junior/io/files/lesson/client/Client2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kosmocourses/java/junior/io/files/lesson/client/ConsolReadClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kosmocourses/java/junior/io/files/lesson/client/ConsolReadClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kosmocourses/java/junior/io/files/lesson/server/ServerWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kosmocourses/java/junior/io/files/lesson/server/ServerWorker.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,7 +24,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kosmocourses/java/junior/io/files/lesson/server/ServerListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
+            <state relative-caret-position="-1687">
               <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
               <folding>
                 <element signature="e#826#827#0" expanded="true" />
@@ -33,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kosmocourses/java/junior/io/files/lesson/server/ServerWorker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2684">
-              <caret line="62" column="33" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="33" />
+            <state relative-caret-position="59">
+              <caret line="61" column="49" lean-forward="true" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kosmocourses/java/junior/io/files/lesson/client/Client1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+            <state relative-caret-position="88">
+              <caret line="2" selection-start-line="2" selection-end-line="25" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,13 +71,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kosmocourses/java/junior/io/files/lesson/client/ConsolReadClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="10" column="63" lean-forward="true" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+            <state relative-caret-position="-998">
+              <caret line="44" column="58" lean-forward="true" selection-start-line="44" selection-start-column="58" selection-end-line="44" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1883#1884#0" expanded="true" />
+                <element signature="e#1917#1918#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,8 +88,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kosmocourses/java/junior/io/files/lesson/client/ServerListenClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1320">
-              <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+            <state relative-caret-position="-15">
+              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/kosmocourses/java/junior/io/files/lesson/client/Client2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1276">
-              <caret line="32" column="58" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="58" />
+            <state relative-caret-position="-44">
+              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,11 +134,12 @@
         <option value="$PROJECT_DIR$/src/com/kosmocourses/java/junior/io/files/lesson/server/MultiClientServerRunner.java" />
         <option value="$PROJECT_DIR$/src/com/kosmocourses/java/junior/io/files/lesson/server/ServerListener.java" />
         <option value="$PROJECT_DIR$/src/com/kosmocourses/java/junior/io/files/lesson/server/NetworkUtils.java" />
-        <option value="$PROJECT_DIR$/src/com/kosmocourses/java/junior/io/files/lesson/server/ServerWorker.java" />
         <option value="$PROJECT_DIR$/src/com/kosmocourses/java/junior/io/files/lesson/client/ConsolReaderClient.java" />
         <option value="$PROJECT_DIR$/src/com/kosmocourses/java/junior/io/files/lesson/client/ServerListenClient.java" />
-        <option value="$PROJECT_DIR$/src/com/kosmocourses/java/junior/io/files/lesson/client/Client1.java" />
+        <option value="$PROJECT_DIR$/src/com/kosmocourses/java/junior/io/files/lesson/server/ServerWorker.java" />
         <option value="$PROJECT_DIR$/src/com/kosmocourses/java/junior/io/files/lesson/client/ConsolReadClient.java" />
+        <option value="$PROJECT_DIR$/src/com/kosmocourses/java/junior/io/files/lesson/client/Client1.java" />
+        <option value="$PROJECT_DIR$/src/com/kosmocourses/java/junior/io/files/lesson/client/Client2.java" />
       </list>
     </option>
   </component>
@@ -148,7 +155,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,6 +201,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -226,7 +233,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client1">
+  <component name="RunManager" selected="Application.Client2">
     <configuration name="Client1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kosmocourses.java.junior.io.files.lesson.client.Client1" />
       <module name="kosmocourses-java-junior-network-2" />
@@ -268,9 +275,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client2" />
         <item itemvalue="Application.Client1" />
         <item itemvalue="Application.ServerListener" />
-        <item itemvalue="Application.Client2" />
       </list>
     </recent_temporary>
   </component>
@@ -288,7 +295,8 @@
       <workItem from="1560282555434" duration="54000" />
       <workItem from="1560367318316" duration="1783000" />
       <workItem from="1560876966691" duration="8089000" />
-      <workItem from="1560888109679" duration="532000" />
+      <workItem from="1560888109679" duration="752000" />
+      <workItem from="1561202709580" duration="4713000" />
     </task>
     <task id="LOCAL-00001" summary="add project HWNet #2">
       <created>1560077223889</created>
@@ -311,11 +319,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560888594338</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="work">
+      <created>1560888672750</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1560888672750</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11267000" />
+    <option name="totallyTimeSpent" value="16200000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="68" y="27" width="1852" height="1173" extended-state="6" />
@@ -326,13 +341,13 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.27464008" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.27796236" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.3297975" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="4" visible="true" weight="0.35679847" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.35611165" />
       <window_info anchor="bottom" id="Version Control" order="5" weight="0.32977778" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32961586" />
@@ -386,34 +401,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add project HWNet #2" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="work" />
+    <option name="LAST_COMMIT_MESSAGE" value="work" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar:///usr/lib/jvm/java-1.8.0-amazon-corretto/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="707" column="18" selection-start-line="707" selection-start-column="18" selection-end-line="707" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kosmocourses/java/junior/io/files/lesson/server/ServerListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-          <folding>
-            <element signature="e#826#827#0" expanded="true" />
-            <element signature="e#886#887#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kosmocourses/java/junior/io/files/lesson/server/ServerWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2684">
-          <caret line="62" column="33" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -428,30 +423,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kosmocourses/java/junior/io/files/lesson/client/Client1.java">
+    <entry file="file://$PROJECT_DIR$/src/com/kosmocourses/java/junior/io/files/lesson/server/ServerListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        <state relative-caret-position="-1687">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#826#827#0" expanded="true" />
+            <element signature="e#886#887#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kosmocourses/java/junior/io/files/lesson/client/ServerListenClient.java">
+    <entry file="file://$PROJECT_DIR$/src/com/kosmocourses/java/junior/io/files/lesson/server/ServerWorker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kosmocourses/java/junior/io/files/lesson/client/Client2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1276">
-          <caret line="32" column="58" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="58" />
+        <state relative-caret-position="59">
+          <caret line="61" column="49" lean-forward="true" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -460,8 +446,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kosmocourses/java/junior/io/files/lesson/client/ConsolReadClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="10" column="63" lean-forward="true" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+        <state relative-caret-position="-998">
+          <caret line="44" column="58" lean-forward="true" selection-start-line="44" selection-start-column="58" selection-end-line="44" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1883#1884#0" expanded="true" />
+            <element signature="e#1917#1918#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kosmocourses/java/junior/io/files/lesson/client/ServerListenClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kosmocourses/java/junior/io/files/lesson/client/Client1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="2" selection-start-line="2" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kosmocourses/java/junior/io/files/lesson/client/Client2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-44">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
